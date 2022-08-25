@@ -68,11 +68,11 @@
     text-align: left ;
     color: coral ;
     font-size: 50px ;
-    float: left ;
 }
 
 .about-me p {
-    float: right ;
+ text-align: center ;
+ font-size: 20px ;
 }
 
 .contact-me a {
