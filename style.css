@@ -1,57 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
   }
 
   body {
-    color: black;
-    font-family: Helvetica, Arial, sans-serif;
+    color: black ;
+    font-family: Helvetica, Arial, sans-serif ;
   }
 
   header {
-    padding: 20px 35px;
-    background-color: #430874;
+    padding: 20px 35px ;
+    background-color: rgb(188, 242, 255) ;
   }
 
   header h1 {
-    font-weight: bold;
-    font-size: 40px;
-    color: black;
-    margin: 0;
-    display: inline;
+    font-weight: bold ;
+    color:rgb(188, 242, 255) ;
+    font-size: 80px ;
+    color: rgb(188, 242, 255) ;
+    margin: -40px ;
+    display: inline ;
+    background-color: coral ;
+    padding-right: 20px ;
+    padding-left: 140px ;
   }
 
-  header a {
-    text-decoration: none;
-    color: black;
+  header li {
+    text-decoration: none ;
+    color: coral ;
   }
 
   header nav {
-    float: right;
-    margin: 7px 0;
+    float: right ;
+    margin: 7px 0 ;
   }
 
   header nav ul li {
-    display: inline;
+    display: inline ;
   }
 
   header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
+    margin: 0 30px ;
+    font-weight: lighter ;
+    font-size: 30px ;
+    color: coral ;
   }
 
   section {
-    padding: 60px;
+    padding: 140px ;
   }
 
-.about-me {
-   margin: 14px 
+  .background {
+    background-image: url('images/background2.webp');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+
+  .about-me {
+   margin: 14px ;
 }
 
-.about-me h2 {
+ h2 {
     text-align: left ;
-    color:#430874 ;
-    font-size: 50px;
+    color: coral ;
+    font-size: 50px ;
+    float: left ;
+}
+
+.about-me p {
+    float: right ;
+}
+
+.contact-me a {
+  font-size: 40px ;
+  margin: 20px ;
 }
